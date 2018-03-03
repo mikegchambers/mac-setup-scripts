@@ -1,4 +1,5 @@
 #!/bin/bash
+sudo systemsetup -setcomputersleep Never
 read -n1 -r -p "STOP: Sign in to Mac AppStore business account..."
 #Screenflow
 mas install 1223627207
