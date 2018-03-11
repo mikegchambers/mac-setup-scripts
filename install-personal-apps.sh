@@ -15,6 +15,8 @@ mas install 1295203466
 mas install 497799835
 # Motion 
 mas install 434290957
-# OmniOutliner 5
-mas install 1142578772
+# SimpleNote
+mas install 692867256
+# Byword
+mas install 420212497
 sudo systemsetup -setcomputersleep 30

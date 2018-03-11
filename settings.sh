@@ -8,3 +8,8 @@ killall Dock
 
 # Get the terminal looking nice...
 cp ./bash_profile ~/.bash_profile
+
+# Make a place for awsome bash scripts:
+mkdir ~/Scripts/bash-scripts
+# And make sure we can always run stuff from there:
+PATH="$PATH:$HOME/Scripts/bash-scripts"
