@@ -19,4 +19,6 @@ mas install 434290957
 mas install 692867256
 # Byword
 mas install 420212497
+# OneNote
+mas install 784801555
 sudo systemsetup -setcomputersleep 30
