@@ -15,4 +15,5 @@ brew cask install signal
 brew cask install dropbox
 brew cask install tyke
 brew cask install visual-studio-code
+brew cask install amazon-workspaces
 echo Done!
