@@ -16,4 +16,5 @@ brew cask install dropbox
 brew cask install tyke
 brew cask install visual-studio-code
 brew cask install amazon-workspaces
+brew cask install vnc-viewer
 echo Done!
