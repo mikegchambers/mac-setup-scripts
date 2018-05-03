@@ -17,4 +17,5 @@ brew cask install tyke
 brew cask install visual-studio-code
 brew cask install amazon-workspaces
 brew cask install vnc-viewer
+sudo systemsetup -setremotelogin on
 echo Done!
