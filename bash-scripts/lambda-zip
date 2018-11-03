@@ -1,0 +1,11 @@
+#!/bin/bash
+DIR=$(pwd)
+source run-env.sh
+rm -rf $DIR/dist
+mkdir $DIR/dist
+pip freeze > $DIR/requirements.txt
+pip install --target $DIR/dist -r $DIR/requirements.txt
+cp -rf $DIR/*.py $DIR/dist
+cd $DIR/dist
+zip -r $DIR/function.zip .
+cd $DIR

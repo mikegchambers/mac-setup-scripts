@@ -1,0 +1,10 @@
+!#/bin/bash
+echo " "
+echo "Mike's Scripts:"
+echo " "
+echo "source run-env        Creates and runs a virtualenv in the currect dir."
+echo "                      - 'deactivate' (to exit)"
+echo " "
+echo "source lambda-zip     Creates function.zip with required packages."
+echo "                      Zips any .py file."
+echo " "
