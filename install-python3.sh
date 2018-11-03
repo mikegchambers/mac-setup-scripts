@@ -1,7 +1,8 @@
 #!/bin/bash
 #install python 3
+sudo xcodebuild -license accept
 brew install python
 brew install pipenv
-pip install boto3
-pip install cfn-lint
-pip install cfn-flip
+pip3 install boto3
+pip3 install cfn-lint
+pip3 install cfn-flip
