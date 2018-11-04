@@ -20,6 +20,7 @@ brew cask install tyke
 brew cask install visual-studio-code
 #brew cask install amazon-workspaces
 brew cask install vnc-viewer
+brew cask install docker-toolbox
 brew cask install homebrew/cask-drivers/logitech-options
 sudo systemsetup -setremotelogin on
 echo Done!
