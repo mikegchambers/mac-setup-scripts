@@ -24,5 +24,6 @@ brew cask install docker-toolbox
 brew cask install homebrew/cask-drivers/logitech-options
 brew cask install google-chrome
 brew cask install cocoapods
+brew install carthage
 sudo systemsetup -setremotelogin on
 echo Done!
