@@ -21,4 +21,6 @@ mas install 692867256
 mas install 420212497
 # OneNote
 mas install 784801555
+# DemoPro - screen annotation
+mas install 1384206666
 sudo systemsetup -setcomputersleep 30
