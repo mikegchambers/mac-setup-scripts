@@ -18,6 +18,7 @@ brew cask install signal
 brew cask install dropbox
 brew cask install tyke
 brew cask install visual-studio-code
+brew cask install vlc
 #brew cask install amazon-workspaces
 brew cask install vnc-viewer
 brew cask install docker-toolbox
