@@ -1,8 +1,10 @@
 #!/bin/bash
 sudo systemsetup -setcomputersleep Never
 read -n1 -r -p "STOP: Sign in to Mac AppStore business account..."
-#Screenflow
-mas install 1223627207
+# Screenflow
+# mas install 1223627207
+# Screenflow 8
+mas install 1380326214
 # OmniOutliner 5
 # mas install 1142578772
 # Final Cut Pro X

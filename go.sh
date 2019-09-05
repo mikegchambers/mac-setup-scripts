@@ -1,22 +1,18 @@
 #!/bin/bash
 echo Stage One...
-install-stage1.sh
+1-install-cli-brew.sh
 
 echo Stage Two...
-install-personal-apps.sh
+2-install-personal-apps.sh
 
 echo Stage Three...
-install-business-apps.sh
+3-install-business-apps.sh
 
 echo Stage Four...
-install-python3.sh
-
-# echo Stage Five...
-# install-ruby.sh
+4-install-python3.sh
 
 echo Last Stage...
-settings.sh
-autodelete-runonce.sh
+10-settings.sh
+11- autodelete-runonce.sh
 
-now-installinstructions.sh
-
+20-now-install-instructions.sh
