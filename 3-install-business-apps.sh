@@ -9,6 +9,8 @@ mas install 1380326214
 # mas install 1142578772
 # Final Cut Pro X
 mas install 424389933
+# Ulysses
+mas install 1225570693
 # Camtaisa
 # read -n1 -r -p "Download and install Camtasia."
 sudo systemsetup -setcomputersleep 30

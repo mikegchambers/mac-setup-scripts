@@ -33,7 +33,6 @@ mas install 1384206666
 mas install 441258766
 # Slack
 mas install 803453959
-# Ulysses
-mas install 1225570693
+
 
 sudo systemsetup -setcomputersleep 30
