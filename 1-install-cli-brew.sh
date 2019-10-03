@@ -35,6 +35,7 @@ brew cask install google-chrome
 # brew install ffmpeg
 brew cask install handbrake
 brew cask install postman
+brew cask install keybase
 
 sudo systemsetup -setremotelogin on
 echo Done!
