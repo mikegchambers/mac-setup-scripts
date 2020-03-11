@@ -4,12 +4,6 @@ read -n1 -r -p "STOP: Open Mac AppStore and update OS..."
 echo Installing HomeBrew...
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-echo Installing RubyGems...
-brew install brew-gem
-
-echo Installing Jekyll
-gem install jekyll
-
 echo Installing CLI apps...
 brew install git
 
