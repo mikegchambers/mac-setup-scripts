@@ -31,6 +31,7 @@ brew cask install tyke
 brew cask install visual-studio-code
 brew cask install homebrew/cask-drivers/logitech-options
 brew cask install homebrew/cask-drivers/logitech-camera-settings
+brew cask install homebrew/cask-drivers/wacom-tablet
 brew cask install keybase
 brew cask install notion
 brew cask install icons8

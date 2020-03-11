@@ -7,5 +7,6 @@ echo - Firefox Multi-Account Containers
 echo - Open bookmark in Container Tab menu item
 echo - Temporary Containers
 echo SSH Keys
-echo Wacom Drivers
+echo Bootstrap Studio
+echo Configure Wacom
 
