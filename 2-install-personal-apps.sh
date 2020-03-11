@@ -1,6 +1,8 @@
 #!/bin/bash
 sudo systemsetup -setcomputersleep Never
-read -n1 -r -p "STOP: Sign in to Mac AppStore personal account..."
+echo  "STOP: Sign in to Mac AppStore personal account..."
+read Y
+
 # Pages
 mas install 409201541
 # Keynote

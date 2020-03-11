@@ -18,3 +18,6 @@ PATH="$PATH:$HOME/Scripts/bash-scripts"
 # Add workflows... (Requires click confirmation)
 open "./automations/Open Terminal here.workflow"
 open "./automations/Open in VS Code.workflow"
+
+# Requires full disk access to work...
+sudo systemsetup -setremotelogin on

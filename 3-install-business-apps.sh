@@ -1,6 +1,8 @@
 #!/bin/bash
 sudo systemsetup -setcomputersleep Never
-read -n1 -r -p "STOP: Sign in to Mac AppStore business account..."
+echo  "STOP: Sign in to Mac AppStore business account..."
+read Y
+
 # Screenflow 8
 mas install 1380326214
 # Final Cut Pro X

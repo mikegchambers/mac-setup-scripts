@@ -1,5 +1,6 @@
 #!/bin/bash
-read -n1 -r -p "STOP: Open Mac AppStore and update OS..."
+echo "STOP: Open Mac AppStore and update OS..."
+read Y
 
 echo Installing HomeBrew...
 # /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -34,5 +35,4 @@ brew cask install zoomus
 brew cask install balenaetcher
 brew cask install grandperspective
 
-sudo systemsetup -setremotelogin on
 echo Done!
