@@ -14,3 +14,7 @@ mkdir ~/Scripts
 cp -r ./bash-scripts ~/Scripts/
 # And make sure we can always run stuff from there:
 PATH="$PATH:$HOME/Scripts/bash-scripts"
+
+# Add workflows... (Requires click confirmation)
+open "./automations/Open Terminal here.workflow"
+open "./automations/Open in VS Code.workflow"
