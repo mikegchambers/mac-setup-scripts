@@ -13,6 +13,6 @@ echo Stage Four...
 
 echo Last Stage...
 10-settings.sh
-11- autodelete-runonce.sh
+#11-autodelete-runonce.sh
 
 20-now-install-instructions.sh
