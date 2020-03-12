@@ -22,6 +22,9 @@ echo Last Stage...
 ./10-settings.sh
 ./11-autodelete-runonce.sh
 
+echo  "STOP: Open System Pref and grant Full Disk Access to the Cron to allow auto cleanup scripts to run... (https://blog.bejarano.io/fixing-cron-jobs-in-mojave/)"
+read Y
+
 ./20-now-install-instructions.sh
 
 echo  "STOP: Open System Pref and un-grant Full Disk Access to the terminal... (https://support.apple.com/en-us/HT210595)"
