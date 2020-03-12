@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 #install ruby
 brew install ruby
 echo 'export PATH="/usr/local/opt/ruby/bin:$PATH"' >> ~/.bash_profile

@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 DIR=$(pwd)
 source run-env.sh
 rm -rf $DIR/dist

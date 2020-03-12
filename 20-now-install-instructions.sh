@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 
 echo Now install:
 echo Firefox Add Ons:

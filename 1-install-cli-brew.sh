@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 echo "STOP: Open Mac AppStore and update OS..."
 read Y
 

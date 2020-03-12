@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 sudo systemsetup -setcomputersleep Never
 echo  "STOP: Sign in to Mac AppStore business account..."
 read Y

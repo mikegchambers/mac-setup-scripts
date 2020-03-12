@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 #install python 3
 sudo xcodebuild -license accept
 brew install python

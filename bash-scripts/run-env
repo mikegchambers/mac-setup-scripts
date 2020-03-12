@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 # source run-env.sh
 DIR=$(pwd)
 # INV="$(printf %q "$BASH_SOURCE")$((($#)) && printf ' %q' "$@")"
