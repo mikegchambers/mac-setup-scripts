@@ -9,4 +9,6 @@ echo - Temporary Containers
 echo SSH Keys
 echo Bootstrap Studio
 echo Configure Wacom
-
+echo 
+echo aws:
+echo aws configure sso (for each and every profile you want on the machine)
