@@ -19,6 +19,7 @@ echo Installing Cask tap...
 brew tap caskroom/cask
 
 echo Installing GUI apps...
+brew cask install session-manager-plugin
 brew cask install firefox
 brew cask install 1password
 brew cask install bartender
@@ -28,11 +29,11 @@ brew cask install visual-studio-code
 brew cask install homebrew/cask-drivers/logitech-options
 brew cask install homebrew/cask-drivers/logitech-camera-settings
 brew cask install homebrew/cask-drivers/wacom-tablet
-brew cask install keybase
-brew cask install notion
+# brew cask install keybase
+# brew cask install notion
 brew cask install icons8
 brew cask install zoomus
-brew cask install balenaetcher
+# brew cask install balenaetcher
 brew cask install grandperspective
 
 echo Done!
