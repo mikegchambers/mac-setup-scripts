@@ -35,5 +35,6 @@ brew cask install icons8
 brew cask install zoomus
 # brew cask install balenaetcher
 brew cask install grandperspective
+brew cask install loopback
 
 echo Done!
