@@ -12,5 +12,5 @@ echo "*********************************************************"
 echo "Entering the virtualenv..."
 echo "To quit the virtualenv type 'deactivate'"
 source $DIR/virtualenv/bin/activate
-echo "Did you type 'source run-env.sh' ?"
+# echo "Did you type 'source run-env.sh' ?"
 echo $(which python)
