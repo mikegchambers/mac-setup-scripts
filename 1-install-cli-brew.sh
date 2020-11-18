@@ -19,7 +19,7 @@ echo Installing Cask tap...
 brew tap caskroom/cask
 
 echo Installing GUI apps...
-brew cask install session-manager-plugin
+# brew cask install session-manager-plugin
 brew cask install firefox
 brew cask install 1password
 brew cask install bartender
