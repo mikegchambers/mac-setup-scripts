@@ -30,3 +30,5 @@ read Y
 
 echo  "STOP!: Open System Pref and un-grant Full Disk Access to the terminal... (https://support.apple.com/en-us/HT210595)"
 read Y
+
+echo "Added with Gitpod"
