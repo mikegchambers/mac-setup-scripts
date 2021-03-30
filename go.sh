@@ -1,5 +1,7 @@
 #!/bin/zsh
 
+echo "Lets go!"
+
 echo  "STOP!: Open System Pref and grant Full Disk Access to the terminal... (https://support.apple.com/en-us/HT210595)"
 read Y
 
