@@ -1,7 +1,7 @@
 #!/bin/zsh
 #install python 3
 sudo xcodebuild -license accept
-brew install python
+brew install python3
 brew install pipenv
 pip3 install virtualenv 
 pip3 install boto3

@@ -4,9 +4,14 @@ read Y
 
 echo Installing HomeBrew...
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
+sudo softwareupdate --install-rosetta
 
 echo Installing CLI apps...
 brew install git
+git config --global user.name "Mike Chambers" 
+git config --global user.email mike@mikegchambers.com
 
 echo Installing AWS CLI...
 brew install awscli
@@ -15,44 +20,46 @@ echo Installing Mas...
 brew install mas
 
 echo Installing Cask tap...
-brew tap caskroom/cask
+brew tap homebrew/cask
 
 echo Installing GUI apps...
 
 echo Browsers...
-brew cask install firefox
-brew cask install google-chrome
+brew install firefox
+brew install google-chrome
 
 echo Utils...
-brew cask install 1password
-brew cask install bartender
-brew cask install tyke
-brew cask install icons8
-brew cask install grandperspective
-brew cask install loopback
-brew cask install audio-hijack
-brew cask install openvpn-connect
+brew install 1password
+brew install bartender
+brew install tyke
+brew install icons8
+brew install grandperspective
+brew install loopback
+brew install audio-hijack
+brew install openvpn-connect
+
 # brew cask install handbrake
-brew cask install postman
-brew cask install ultimaker-cura
+brew install postman
+brew install ultimaker-cura
 
 echo Elgato...
-brew cask install elgato-control-center
-brew cask install elgato-camera-hub
+brew install elgato-control-center
+brew install elgato-camera-hub
 
 echo Comms...
-brew cask install zoomus
-brew cask install amazon-chime
+# brew install zoomus
+brew install amazon-chime
 
 echo Development...
-brew cask install processing
-brew cask install arduino
-brew cask install visual-studio-code
+brew install processing
+brew install arduino
+brew install visual-studio-code
+brew install terraform
 
 echo Drivers...
-brew cask install homebrew/cask-drivers/logitech-options
-brew cask install homebrew/cask-drivers/logitech-camera-settings
-brew cask install homebrew/cask-drivers/wacom-tablet
+brew install homebrew/cask-drivers/logitech-options
+brew install homebrew/cask-drivers/logitech-camera-settings
+brew install homebrew/cask-drivers/wacom-tablet
 
 echo Granted...
 brew tap common-fate/granted
