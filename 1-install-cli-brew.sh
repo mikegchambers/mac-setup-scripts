@@ -30,8 +30,15 @@ brew cask install tyke
 brew cask install icons8
 brew cask install grandperspective
 brew cask install loopback
+brew cask install audio-hijack
 brew cask install openvpn-connect
-brew cask install handbrake
+# brew cask install handbrake
+brew cask install postman
+brew cask install ultimaker-cura
+
+echo Elgato...
+brew cask install elgato-control-center
+brew cask install elgato-camera-hub
 
 echo Comms...
 brew cask install zoomus
@@ -46,5 +53,10 @@ echo Drivers...
 brew cask install homebrew/cask-drivers/logitech-options
 brew cask install homebrew/cask-drivers/logitech-camera-settings
 brew cask install homebrew/cask-drivers/wacom-tablet
+
+echo Granted...
+brew tap common-fate/granted
+brew install granted
+echo Also install the Granted plugin for Firefox container tabs!
 
 echo Done!

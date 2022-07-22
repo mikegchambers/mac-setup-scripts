@@ -1,16 +1,7 @@
 #!/bin/zsh
-# source run-env.sh
 DIR=$(pwd)
-# INV="$(printf %q "$BASH_SOURCE")$((($#)) && printf ' %q' "$@")"
-# echo dir: $DIR
-# echo inv: $INV
-grep -q -F 'virtualenv/' $DIR/.gitignore || echo 'virtualenv/' >> $DIR/.gitignore
-#echo virtualenv/ >> $DIR/.gitignore
 virtualenv $DIR/virtualenv
 export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3
-echo "*********************************************************"
-echo "Entering the virtualenv..."
 echo "To quit the virtualenv type 'deactivate'"
 source $DIR/virtualenv/bin/activate
-# echo "Did you type 'source run-env.sh' ?"
 echo $(which python)
