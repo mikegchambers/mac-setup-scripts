@@ -1,6 +1,6 @@
 #!/bin/zsh
 DIR=$(pwd)
-source run-env.sh
+source run-env
 rm -rf $DIR/dist
 mkdir $DIR/dist
 pip freeze > $DIR/requirements.txt
