@@ -55,6 +55,7 @@ brew install processing
 brew install arduino
 brew install visual-studio-code
 brew install terraform
+brew install node
 
 echo Drivers...
 brew install homebrew/cask-drivers/logitech-options
